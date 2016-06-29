@@ -1,0 +1,132 @@
+/*CUSTOM CODE*/
+body{
+  background-color: #353131;
+}
+.navbar-light{
+  background-color: #B01414;
+  color: black;
+}/*NAVBAR CSS*/
+.custom_footer{
+  position:relative;
+   left:0px;
+   bottom:0px;
+   height:3.5em;
+   width:100%;
+   background:#B01414;
+   border: 1px solid black;
+}/*FOOTER*/
+a:visited {
+    color: black;
+}
+a{
+    color: black;
+}
+.logos{
+  border: 1px solid black;
+  margin: 10px auto 20px auto; /* auto for centering */
+  max-width: 360px;
+  max-height: 500px;
+}
+
+.videos{
+  border:1px solid #000;
+  border-radius: 10px;
+}
+
+.teams{
+  border: 1px solid black;
+  margin: 0px auto 0px auto;
+}
+
+/*to center carousel images*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#rosterTable{
+  color: white;
+  margin: 10px auto 10px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#special-logo{
+  margin: 10px auto 20px auto; /* auto for centering */
+  max-width: 360px;
+  max-height: 500px;
+}
+
+.accountHeader{
+  color: white;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+.accountHeader > * {
+  padding-left: 20px;
+}
+
+label
+{
+  color: white;
+}
+
+/* selectors weren't working for some reason so I manually put the tag on the three input areas*/
+.contactForms{
+  max-width: 800px;
+}
+
+#contactTable{
+  max-width: 800px;
+  margin: 0px auto 10px auto;
+  border-radius: 15px;
+}
+
+.commentBox{
+  color : black;
+  width: 100%;
+  text-align: left;
+}
+
+
+.canvas-wrapper{
+  background-color: #353131;
+}
+
+.rightCanvas{
+  float: right;
+}
+
+.leftCanvas{
+  float: left;
+}
+
+.doughnut{
+  margin-bottom: 20px;
+  margin: auto;
+  width: 90%;
+}
+
+#player{
+text-align: center;
+font-size: 40px;
+color: #dce0df;
+margin-bottom: -10px;
+}
+
+.yards{
+  color: #dce0df;
+  font-size: 20px;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 60px;
+}
+
+.others {
+  margin-left: 40px;
+}
+
+.carousel-pic
+{
+  margin-left: auto;
+  margin-right: auto;
+}
